@@ -2,6 +2,7 @@ import { Link, Outlet } from "react-router-dom";
 
 
 const Home = () => {
+    
     return (
         <div >
             <nav className="text-xl font-medium text-center space-x-4 bg-purple-600">

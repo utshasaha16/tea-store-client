@@ -11,7 +11,8 @@ const router = createBrowserRouter ([
         children: [
             {
                 path: "/allTea",
-                element: <AllTea></AllTea>
+                element: <AllTea></AllTea>,
+                loader: () => fetch('http://localhost:5000/tea'),
             },
             {
                 path: "/addTea",
